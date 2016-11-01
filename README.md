@@ -20,3 +20,18 @@ Soln:<br>
 9 2 8   4 3 1   6 7 5
 4 3 5   6 7 9   8 2 1
 7 1 6   2 5 8   3 4 9 </pre>
+
+# 2. Queen Problem
+Solves 8 queen problem using Z3, extended to n-queen problem.
+<br>
+Currently prints only one solution but can be extended to print all solution.
+
+Soln for 8-queen problem:<br>
+<pre>0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 </pre>
