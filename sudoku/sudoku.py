@@ -38,7 +38,7 @@ def solve(puzzle):
                        cell[i][7],
                        cell[i][8]))
 
-        #constrain for each column
+        # constrain for each column
         s.add(Distinct(cell[0][i],
                        cell[1][i],
                        cell[2][i],
@@ -49,6 +49,7 @@ def solve(puzzle):
                        cell[7][i],
                        cell[8][i]))
 
+    # constraint for 3x3 cells
     for i in range(0, 9, 3):
         for j in range(0, 9, 3):
             s.add(Distinct(cell[i+0][j], cell[i+0][j+1], cell[i+0][j+2],
