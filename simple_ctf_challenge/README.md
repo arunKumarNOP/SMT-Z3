@@ -5,7 +5,7 @@ Solving a challenge which i encountered in a CTF, i don't remembers exactly whic
 
 The function which determined whether the input was valid or not.<br>
 
-'''c
+```c
 int check_val(char *input)
 {
 	int len = strlen(input);
@@ -21,11 +21,11 @@ int check_val(char *input)
 	}
 	return 0; 
 }
-'''
+```
 <br>
 <br>
 
-Output:<br>
+Output from the solver:<br>
 <pre>
 Len:  9 GVF@bBQH>
 Len: 10 T[y/9[@!@~
