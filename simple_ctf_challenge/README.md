@@ -25,7 +25,7 @@ int check_val(char *input)
 <br>
 <br>
 
-Output:<br>
+Output from the solver:<br>
 <pre>
 Len:  9 GVF@bBQH>
 Len: 10 T[y/9[@!@~
